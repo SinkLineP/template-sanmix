@@ -1,0 +1,156 @@
+.tape-popular-products {
+    margin-top: 70px;
+  }
+  
+  .tape-popular-products .tape-popular-line-1 {
+    width: 100px;
+    margin-right: 100%;
+  }
+  
+  .tape-popular-products .tape-popular-line-2 {
+      width: 100px;
+    margin-left: 19.4%;
+  }
+  
+  .tape-popular-products .tape-popular-products-title {
+      color: #265ca6;
+      font-weight: 700;
+      font-size: 30px;
+      margin: 0;
+      float: left;
+      margin-top: 10px;
+  }
+  
+  .tape-popular-products .tape-popular-products-nav ul li:nth-child(1) {
+      margin-left: 10%;
+  } 
+  
+  
+  .tape-popular-products .tape-popular-products-nav ul li {
+      /* margin-top: 7px; */
+      margin-left: 10px;
+      border: 1px solid lightgray;
+      width: auto;
+      height: 40px;
+      border-radius: 5px;
+      font-size: 17px;
+      font-weight: 700;
+  }   
+  
+  
+  /* tabs */
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tabs {
+    display: flex;
+  }
+  
+  .tabs-title {
+    line-height: 40px;
+    padding: 0px 10px;
+    color: #353535;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  
+  
+  .tabs-title.active {
+    background-color: #2A569E;
+    color: #ffffff;
+    cursor: pointer;
+  
+  }
+  
+  .tabcontent {
+    display: none;
+  }
+  
+  /* ==========================Plumber======================= */
+  
+  .tabs-tape-popular-plumber {
+    display: grid;
+    grid-template: "one two three fo five";
+  }
+  
+  .tabs-tape-popular-plumber-block {
+    position:relative;
+    width: 220px;
+    height: 413px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 3px 9px 9px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 3px 9px 9px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 3px 9px 9px rgba(34, 60, 80, 0.2);
+    grid-area: one;
+  }
+  
+  .tabs-tape-popular-plumber-block img {
+    width: 210px;
+    border-radius: 10px;
+  }
+  
+  .tabs-tape-popular-plumber-title {
+    font-weight: 700;
+    color: #353535;
+    width: 205px;
+    margin-left: 5px;
+  }
+  
+  .tabs-tape-popular-plumber-price {
+    position:absolute;
+      bottom:0; 
+    margin-top: 20px;
+  }
+  
+  .tabs-tape-popular-plumber-price p {
+    float: left;
+    margin-left: 15px;
+    color: #265ca6;
+    font-weight: 700;
+  }
+  
+  .tabs-tape-popular-plumber-price button {
+    margin: 12px 0px 0px 10px;
+  }
+  
+  /* grid-position */
+  
+  #tabs-tape-plumber-one {
+    grid-area: one;
+    margin-right: 54px;
+  }
+  
+  #tabs-tape-plumber-two {
+    grid-area: two;
+    margin-right: 54px;
+  }
+  
+  #tabs-tape-plumber-three {
+    grid-area: three;
+    margin-right: 54px;
+  }
+  
+  #tabs-tape-plumber-fo {
+    grid-area: fo;
+    margin-right: 54px;
+  }
+  
+  #tabs-tape-plumber-five {
+    grid-area: five;
+  }
+  
+  /* ==========================Pump======================= */
+  
+  

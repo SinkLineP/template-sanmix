@@ -1,0 +1,55 @@
+.navbar-info {
+    border-bottom: 1px solid #b4b4b4;
+}
+
+.navbar-info .nav-info-btn {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F6F6F6;
+    display: grid;
+    grid-template: "logo country phone-number add-phone-number work-day";
+}
+
+.navbar-info .nav-info-btn li a {
+    color: black;
+    text-decoration: none; 
+}
+
+
+.navbar-info .nav-info-btn {
+    padding: 30px 0px 0px 70px;
+}
+
+.navbar-info .nav-info-btn .work-days{
+    margin: 0px 0px 30px 0px;
+}
+
+.navbar-info .nav-info-btn li:nth-child(1) {
+    width: 170px;
+    grid-area: logo;
+}
+
+.navbar-info .nav-info-btn li:nth-child(1) a {
+    font-size: 30px;
+    text-align: center;
+}
+
+.navbar-info .nav-info-btn li:nth-child(2) {
+    grid-area: country;
+}
+
+.navbar-info .nav-info-btn li:nth-child(3) {
+    grid-area: phone-number;
+}
+
+.navbar-info .nav-info-btn li:nth-child(4) {
+    grid-area: add-phone-number;
+}
+
+.navbar-info .nav-info-btn li:nth-child(5) {
+    grid-area: work-day;
+}
+
+

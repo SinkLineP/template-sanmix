@@ -1,0 +1,155 @@
+.new-product {
+  margin-top: 70px;
+}
+
+.new-product .new-line-1 {
+  width: 100px;
+  margin-right: 100%;
+}
+
+.new-product .new-line-2 {
+    width: 100px;
+  margin-left: 19.4%;
+}
+
+.new-product .new-product-title {
+    color: #265ca6;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    float: left;
+    margin-top: 10px;
+}
+
+.new-product .new-product-nav ul li:nth-child(1) {
+    margin-left: 10%;
+} 
+
+
+.new-product .new-product-nav ul li {
+    /* margin-top: 7px; */
+    margin-left: 10px;
+    border: 1px solid lightgray;
+    width: auto;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+}   
+
+
+/* tabs */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs-title {
+  line-height: 40px;
+  padding: 0px 10px;
+  color: #353535;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+.tabs-title.active {
+  background-color: #2A569E;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+
+.tabcontent {
+  display: none;
+}
+
+/* ==========================Plumber======================= */
+
+.tabs-new-plumber {
+  display: grid;
+  grid-template: "one two three fo five";
+}
+
+.tabs-new-plumber-block {
+  position:relative;
+  width: 220px;
+  height: 413px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 9px 9px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 3px 9px 9px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 3px 9px 9px rgba(34, 60, 80, 0.2);
+  grid-area: one;
+}
+
+.tabs-new-plumber-block img {
+  width: 210px;
+  border-radius: 10px;
+}
+
+.tabs-new-plumber-title {
+  font-weight: 700;
+  color: #353535;
+  width: 205px;
+  margin-left: 5px;
+}
+
+.tabs-new-plumber-price {
+  position:absolute;
+	bottom:0; 
+  margin-top: 20px;
+}
+
+.tabs-new-plumber-price p {
+  float: left;
+  margin-left: 15px;
+  color: #265ca6;
+  font-weight: 700;
+}
+
+.tabs-new-plumber-price button {
+  margin: 12px 0px 0px 10px;
+}
+
+/* grid-position */
+
+#tabs-plumber-one {
+  grid-area: one;
+  margin-right: 54px;
+}
+
+#tabs-plumber-two {
+  grid-area: two;
+  margin-right: 54px;
+}
+
+#tabs-plumber-three {
+  grid-area: three;
+  margin-right: 54px;
+}
+
+#tabs-plumber-fo {
+  grid-area: fo;
+  margin-right: 54px;
+}
+
+#tabs-plumber-five {
+  grid-area: five;
+}
+
+/* ==========================Pump======================= */
+

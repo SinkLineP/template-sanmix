@@ -1,0 +1,37 @@
+.live-search {
+    background-color: #F6F6F6;
+    height: 63px;
+}
+
+.search {
+    margin: 10px 0px 0px 60px;
+    width: 600px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+
+.search-btn {
+    height: 35px;
+    background-color: white;
+    border: none;
+}
+
+.filter {
+    background-color: orangered;
+    border: none;
+    margin: 0px 70px 0px 10px
+}
+
+.like {
+    background-color: orangered;
+    border: none;
+    margin-right: 70px;
+}
+
+.cart {
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    border: none;
+}

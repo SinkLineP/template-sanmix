@@ -1,0 +1,28 @@
+.slides {
+    margin-top: 10px;
+    padding-left: 390px;
+
+}
+ 
+.slide-img {
+    display: none;
+    width: 900px;
+}
+ 
+.block {
+    display: block; 
+    height: 100%;
+}
+
+.btnRight {
+    margin-top: 10px;
+    margin-left: 60%;
+    display: block;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.navbar .nav-btn {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(77, 106, 202);
+}
+
+.navbar .nav-btn li {
+    float: left;
+}
+
+.navbar .nav-btn li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navbar .nav-btn li a:hover:not(.active) {
+    background-color: rgb(56, 90, 202);
+}
+
+.active:hover {
+    background-color: rgb(56, 90, 202);
+}
+
+.navbar .nav-btn .nav-right {
+    float: right;
+}
+
+
+
+  
+  
+
+  
+  
